@@ -1,0 +1,29 @@
+{
+  "name": "solo-sync",
+  "version": "0.0.1",
+  "description": "Auto upload gcode or 3d model file to solohost or other octoprint based system.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoloSculptor/SoloSync.git"
+  },
+  "keywords": [
+    "octoprint",
+    "octopi",
+    "solohost",
+    "solosculpter"
+  ],
+  "author": "linanw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoloSculptor/SoloSync/issues"
+  },
+  "homepage": "https://github.com/SoloSculptor/SoloSync#readme",
+  "devDependencies": {
+    "electron": "^4.0.5"
+  }
+}
