@@ -1,5 +1,5 @@
 const { app, BrowserWindow, dialog, } = require('electron')
-const fsWatcher = require('./fsWatcher')
+const fsWatcher = require('./fs-watcher')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
