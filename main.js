@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, dialog, } = require('electron')
+const fsWatcher = require('./fsWatcher')
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -10,6 +11,19 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadFile('index.html')
+
+  dialog.showOpenDialog({
+      properties: ['openDirectory']
+  },function(path){
+      if(path){
+          // Start to watch the selected path
+          //StartWatcher(path[0]);
+          console.log(path[0]);
+          fsWatcher.start(path[0])
+      }else {
+          console.log("No path selected");
+      }
+  });
 
   // Open the DevTools.
   //win.webContents.openDevTools()
@@ -47,3 +61,4 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+

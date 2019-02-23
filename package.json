@@ -25,5 +25,9 @@
   "homepage": "https://github.com/SoloSculptor/SoloSync#readme",
   "devDependencies": {
     "electron": "^4.0.5"
+  },
+  "dependencies": {
+    "chokidar": "^2.1.2",
+    "request": "^2.88.0"
   }
 }
