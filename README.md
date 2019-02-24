@@ -8,6 +8,7 @@ Watching specific folder for Gcode and STL files and automatically upload to Sol
 - Button to verify API Key.
 - Button to open OctoPrint in browser. 
 - Keep app at system tray.
+- Notification for fail uploading, i.e. "Can't overwrite current printing file." 
 
 ## Known Issues
 - Distribution package size is too big.
