@@ -13,3 +13,4 @@ Watching specific folder for Gcode and STL files and automatically upload to Sol
 - Distribution package size is too big.
 - Typo "Octoprint" on main window.
 - Main window show scolling bar on Windows. 
+- App is not single instance yet.
