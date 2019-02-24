@@ -1,6 +1,6 @@
 {
   "name": "solo-sync",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Auto upload gcode or 3d model file to solohost or other octoprint based system.",
   "main": "main.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "chokidar": "^2.1.2",
+    "config": "^3.0.1",
     "request": "^2.88.0"
   }
 }
