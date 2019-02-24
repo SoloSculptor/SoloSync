@@ -8,4 +8,6 @@ Watching specific folder for Gcode and STL files and automatically upload to Sol
 - Keep app at system tray.
 
 ## Known Issues
-- Distribution package size is too big. 
+- Distribution package size is too big.
+- Typo "Octoprint" on main window.
+- Main window show scolling bar on Windows. 
