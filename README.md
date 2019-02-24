@@ -3,6 +3,9 @@ Watching specific folder for Gcode and STL files and automatically upload to Sol
 
 ![screenshot on mac](https://github.com/SoloSculptor/SoloSync/blob/master/Images/screenshot_mac_beta1.png)
 
+## Releases
+https://github.com/SoloSculptor/SoloSync/releases
+
 ## Features To-do
 - Button to verify URL.
 - Button to verify API Key.
@@ -12,6 +15,7 @@ Watching specific folder for Gcode and STL files and automatically upload to Sol
 
 ## Known Issues
 - Distribution package size is too big.
+  This is a Electron based application, I have no idea about how to make it smaller yet. 
 - Typo "Octoprint" on main window.
 - Main window show scolling bar on Windows. 
 - App is not single instance yet.
