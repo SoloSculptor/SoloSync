@@ -14,8 +14,7 @@ https://github.com/SoloSculptor/SoloSync/releases
 - Notification for fail uploading, i.e. "Can't overwrite current printing file." 
 
 ## Known Issues
-- Distribution package size is too big.
-  This is a Electron based application, I have no idea about how to make it smaller yet. 
+- Distribution package size is too big. (This is a Electron based application, I have no idea about how to make it smaller yet.) 
 - Typo "Octoprint" on main window.
 - Main window show scolling bar on Windows. 
 - App is not single instance yet.
