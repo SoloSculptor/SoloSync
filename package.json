@@ -5,7 +5,10 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "electron ."
+    "test": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
   },
   "repository": {
     "type": "git",
@@ -24,11 +27,18 @@
   },
   "homepage": "https://github.com/SoloSculptor/SoloSync#readme",
   "devDependencies": {
-    "electron": "^4.0.5"
+    "electron": "^4.0.5",
+    "electron-builder": "^20.38.5"
   },
   "dependencies": {
     "chokidar": "^2.1.2",
     "config": "^3.0.1",
     "request": "^2.88.0"
+  },
+  "build": {
+    "appId": "com.solosculptor.solosync",
+    "mac": {
+      "category": "utility"
+    }
   }
 }
