@@ -15,7 +15,7 @@ https://github.com/SoloSculptor/SoloSync/releases
 
 ## Known Issues
 - No copy/paste support on MAC. (Confirm fixed in next release.)
-- Distribution package size is too big. (This is a Electron based application, I have no idea about how to make it smaller yet.) 
+- Distribution package size is too big. (This is a Electron based application, I have no idea about how to make it smaller yet. Create an issue if you have any hint for me.) 
 - Typo "Octoprint" on main window.
 - Main window show scolling bar on Windows. 
 - App is not single instance yet.
